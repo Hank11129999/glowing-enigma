@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>PaGamO 登入</title>
+  </head>
+  <body>
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-light bg-light navbar-expand-md">
+      <div class="container-fluid">
+        <!--<img src="https://upload.cc/i1/2022/10/23/24qIjO.jpg" type="button" class="navbar-brand" href="https://www.pagamo.org/" width="7.5%">-->
+        <a href="https://www.pagamo.org/" target="_blank" title="https://www.pagamo.org/"><img src="https://upload.cc/i1/2022/10/23/24qIjO.jpg" type="button" alt="測試圖片" width="80%"></a>
+        <!--<a class="navbar-brand" href="#">PaGamO</a>-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+          <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="navbar-nav me-auto">
+          </ul>		  
+		  <form class="d-flex" style="text-align:right;">
+      		<input class="form-control me-2" type="search" placeholder="輸入文字">
+      		<button class="btn btn-outline-success" type="submit">Search</button>
+        
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--登入頁面-->
+    <div>
+      <br>
+      <h3><a><b>使用帳號登入</b></a></h3>
+        <div>
+          <form>            
+            <br>
+            <input placeholder="請輸入帳號或Email信箱" style="width:300px;">
+            <br>
+            <br>
+            <input placeholder="請輸入密碼" style="width:300px;">
+            <br>
+            <br>
+            <button type="submit" style="width: 300px; height: 32px; background-color: red; border: 0px; border-radius: 12px;">
+              登入</button>
+          </form>
+        </div>
+        <hr>
+        <div>
+          <button type="tw_edu" onclick="window.open('https://www.pagamo.org/sign_in?to=/map?course_code=TMGQOQS7', 'PaGamO Sing', config='height=800,width=800')" style="width: 300px; height: 32px; background-color: #00FFFF; border: 0px; border-radius: 12px;" class="sc-AxiKw fpbJbC SocialButton__Tablet-sc-12alhpt-1 ThirdPartyAuthorizationstyle__Button-sc-1rarklh-0 joiCcg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#FFFFFF" class="sc-AxjAm bcMPWx"><path d="M7.67 17A2.81 2.81 0 008 18.15a2.55 2.55 0 001.49 1.23 2.58 2.58 0 002-.1 2.48 2.48 0 001.46-1.87 11.93 11.93 0 00.05-1.34v-2.85a5.26 5.26 0 00-.22-1.42 2.43 2.43 0 00-1.46-1.54 2.56 2.56 0 00-2.21.11 2.53 2.53 0 00-1.27 1.4 2.91 2.91 0 00-.15 1c-.05.68-.05 3.47-.02 4.23zM19.19 4c-.06.26-.08.52-.15.78a3.37 3.37 0 01-1 1.73 3.17 3.17 0 01-1.66.76c-.26 0-.52.06-.78.09a.79.79 0 00-.42.15.62.62 0 00-.16.68c.12.51.26 1 .36 1.54s.15.9.21 1.35a30.92 30.92 0 01.15 3.92 8.19 8.19 0 01-.16 1.78 5.66 5.66 0 01-1.1 2.22 5.39 5.39 0 01-1.34 1.18 5.46 5.46 0 01-1.84.69 5.81 5.81 0 01-2.42-.1 5.08 5.08 0 01-2.43-1.36A5.43 5.43 0 015 16.57 10 10 0 014.81 15 8.7 8.7 0 015 12.88a5.38 5.38 0 015-4.22 5.49 5.49 0 012.87.63l.57.31c.09.05.15 0 .18-.07a10.27 10.27 0 00.31-1.44.67.67 0 00-.59-.71c-.3-.07-.62 0-.93-.11a3 3 0 01-2-1.31 3.73 3.73 0 01-.71-2.19.58.58 0 01.52-.64h.67a.22.22 0 00.14 0 4.65 4.65 0 011.64.4 3.3 3.3 0 011.43 1.29 5.75 5.75 0 01.34.65.27.27 0 00.09-.15 3.92 3.92 0 011.19-1.52 3.84 3.84 0 011.86-.67 1.37 1.37 0 00.4 0h.47a.21.21 0 00.13 0 .59.59 0 01.61.47z" fill-rule="evenodd"></path></svg><span class="sc-AxirZ bJCmFu">使用教育雲端或縣市帳號登入</span></button>
+          <br>
+          <font size="0.5" color="#D0D0D0">有縣市 OpenID 帳號的教師、行政人員或學生由此登入</font>
+          <br>
+          <br>
+          <button type="facebook" onclick="window.open('https://www.pagamo.org/sign_in?to=/map?course_code=TMGQOQS7', 'PaGamO Sing', config='height=800,width=800')" style="width: 300px; height: 32px; background-color: #F0F0F0; border: 0px; border-radius: 12px;" class="sc-AxiKw eCQjWn SocialButton__Tablet-sc-12alhpt-1 AuthPagestyle__SocialTabletButton-ih4k0j-16 fJWDuD"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#1977f3" class="sc-AxjAm bcMPWx"><path d="M16.19 13.13l.5-3.26h-3.13V7.75A1.63 1.63 0 0115.4 6h1.42V3.22A17.33 17.33 0 0014.3 3C11.72 3 10 4.56 10 7.38v2.49H7.18v3.26H10V21h3.52v-7.87z"></path></svg><span class="sc-AxirZ bJCmFu">Facebook</span></button>
+          <br>
+          <br>
+          <button type="google_oauth2" onclick="window.open('https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type=offline&client_id=21899027349-pne1krau3jdd6gorc8bqa0s65afj05qh.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.pagamo.org%2Fauth%2Fgoogle_oauth2%2Fcallback&response_type=code&scope=email%20profile&state=375d4f258d4a234339580caa77fab4e306fa594fc2c1fe70&flowName=GeneralOAuthFlow', 'PaGamO Sing', config='height=800,width=800');" style="width: 300px; height: 32px; background-color: #F0F0F0; border: 0px; border-radius: 12px;" class="sc-AxiKw eCQjWn SocialButton__Tablet-sc-12alhpt-1 AuthPagestyle__SocialTabletButton-ih4k0j-16 fJWDuD"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" class="sc-AxjAm bcMPWx"><path d="M20.46 12.2a9.44 9.44 0 00-.15-1.76h-8.14v3.33h4.66a4 4 0 01-1.72 2.62v2.16h2.78a8.43 8.43 0 002.57-6.35z" fill="#4281f0"></path><path d="M12.17 20.63a8.25 8.25 0 005.72-2.08l-2.78-2.16a5.22 5.22 0 01-7.78-2.74H4.46v2.23a8.63 8.63 0 007.71 4.75z" fill="#34a453"></path><path d="M7.32 13.65a5.18 5.18 0 010-3.3V8.13H4.46a8.6 8.6 0 000 7.75z" fill="#f7b804"></path><path d="M12.17 6.78a4.69 4.69 0 013.31 1.3L18 5.61a8.29 8.29 0 00-5.78-2.24 8.62 8.62 0 00-7.76 4.76l2.86 2.22a5.18 5.18 0 014.85-3.57z" fill="#e64335"></path></svg><span class="sc-AxirZ bJCmFu">Google</span></button>
+          <br>
+          <br>
+          <button type="apple_id" onclick="window.open('https://appleid.apple.com/auth/authorize?client_id=com.bonio.pagamo.service&nonce=-7ETFvQHMkZmI5566OCS1Q&redirect_uri=https%3A%2F%2Fwww.pagamo.org%2Fauth%2Fapple_id%2Fcallback&response_mode=form_post&response_type=code&scope=email+name&state=c0410ebb84af7e83aed40522faf4c0201b89f828a7c1565c', 'PaGamO Sing', config='height=800,width=800')" style="width: 300px; height: 32px; background-color: #F0F0F0; border: 0px; border-radius: 12px;" class="sc-AxiKw eCQjWn SocialButton__Tablet-sc-12alhpt-1 AuthPagestyle__SocialTabletButton-ih4k0j-16 fJWDuD"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#000" class="sc-AxjAm bcMPWx"><path d="M19.44 15.62v.05c-.11.3-.22.59-.34.88a11.41 11.41 0 01-1.79 2.8 3.71 3.71 0 01-1 .9 2.12 2.12 0 01-1.17.31 2.8 2.8 0 01-.58-.09 6.1 6.1 0 01-1-.34 4.06 4.06 0 00-1.24-.28 3.74 3.74 0 00-1.52.21 9.13 9.13 0 01-1.69.51H8.6a2.58 2.58 0 01-.42-.11 3.28 3.28 0 01-1.12-.78 11.2 11.2 0 01-1.44-1.85 10.65 10.65 0 01-1.1-2.28 10.44 10.44 0 01-.64-3.08 7.4 7.4 0 01.06-1.41 5.55 5.55 0 01.64-2 4.68 4.68 0 013.17-2.45 3.66 3.66 0 011.4-.05 8 8 0 011.09.3c.39.14.78.29 1.18.4a1.07 1.07 0 00.53 0l.65-.2c.37-.13.74-.27 1.11-.39a4.65 4.65 0 012.68-.1 4.23 4.23 0 012.51 1.68c.06.08.06.08 0 .13a3.92 3.92 0 00-.62.45 3.69 3.69 0 00-1.19 1.74 4.13 4.13 0 00-.16 1.6 3.93 3.93 0 00.33 1.36 4.19 4.19 0 001.41 1.66 3.36 3.36 0 00.77.43z"></path><path d="M15.56 2.49a3.78 3.78 0 01-.66 2.1 4.84 4.84 0 01-1.54 1.48 2.87 2.87 0 01-1.59.41c-.09 0-.11 0-.11-.13a3.44 3.44 0 01.05-.85 4.24 4.24 0 012.19-2.92 4.56 4.56 0 011.25-.45h.3c.06 0 .09 0 .1.08s0 .16.01.28z"></path></svg><span class="sc-AxirZ bJCmFu">Apple ID</span></button>
+          <br>
+          <br>
+          <button type="twitter" onclick="window.open('https://api.twitter.com/oauth/authenticate?oauth_token=14ktGwAAAAAAgfCIAAABhAQb158', 'PaGamO Sing', config='height=800,width=800')" style="width: 300px; height: 30px; background-color: #F0F0F0; border: 0px; border-radius: 12px;" class="sc-AxiKw eCQjWn SocialButton__Tablet-sc-12alhpt-1 AuthPagestyle__SocialTabletButton-ih4k0j-16 fJWDuD"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px" fill="#1da0f1" class="sc-AxjAm bcMPWx"><path d="M19.34 8.24v.49A10.7 10.7 0 018.58 19.5a10.78 10.78 0 01-5.81-1.7 9.08 9.08 0 00.91.05 7.58 7.58 0 004.7-1.62 3.79 3.79 0 01-3.54-2.63 4.17 4.17 0 00.71.07 4.09 4.09 0 001-.13 3.8 3.8 0 01-3-3.72 3.84 3.84 0 001.72.47A3.78 3.78 0 013.54 7.1a3.74 3.74 0 01.52-1.91 10.74 10.74 0 007.8 4 4.12 4.12 0 01-.1-.86 3.79 3.79 0 016.55-2.63 7.63 7.63 0 002.41-.92 3.77 3.77 0 01-1.67 2.09 7.56 7.56 0 002.18-.59 8 8 0 01-1.89 1.96z"></path></svg><span class="sc-AxirZ bJCmFu">Twitter</span></button>
+          <br>
+          <br>
+          <button type="all" onclick="window.open('https://www.pagamo.org/sign_in?to=/map?course_code=TMGQOQS7', 'PaGamO Sing', config='height=10000,width=10000')" style="width: 300px; height: 30px; background-color: #F0F0F0; border: 0px; border-radius: 12px;"> <img src="https://upload.cc/i1/2022/11/01/JCrghV.png" width="8%">登入PaGamO</button>
+        </div>  
+    </div>
+    </div>
+    <!-- 頁尾 -->
+    <footer class="container-fluid">
+      <hr>		
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; PaGamO登入系統 &middot; <a href="#">隱私權</a> &middot; <a href="#">聯絡我們</a> &middot; <a href="#">關於我們</a></p>
+    </footer>	
+  </body>
+</html>      
